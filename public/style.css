@@ -1,0 +1,9 @@
+.sidebar {
+    right: -200rem;
+    top: 0;
+}
+
+.sidebar-open {
+    right: 0;
+    transition: 400ms;
+}
