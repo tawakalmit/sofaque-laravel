@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\COntrollers\HomeController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\CardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,8 @@ use App\Http\COntrollers\HomeController;
 |
 */
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
+
+Route::get('card', [CardController::class, 'index'])->name('card.index');
 
 
 Route::get('/welcome', function () {
