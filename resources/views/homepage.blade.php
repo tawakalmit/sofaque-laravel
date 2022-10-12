@@ -13,6 +13,8 @@
             </x-card>
             @endforeach
         </section>
+
+        <livewire:counter />
     </x-slot>
 
 </x-main>

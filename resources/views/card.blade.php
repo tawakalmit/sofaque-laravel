@@ -6,6 +6,7 @@
     </x-slot>
 
     <section class="w-10/12 mx-auto">
+        <form action=""></form>
 
     </section>
 
